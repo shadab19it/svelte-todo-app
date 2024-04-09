@@ -1,7 +1,6 @@
 import { writable } from 'svelte/store';
 import supabase from '$lib/db';
 import type { User } from '@supabase/supabase-js';
-//  const user = writable(await supabase.auth.getUser() || false);
 
 export const user = writable<any>(null, (set) => {
 	let userData: any;

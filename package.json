@@ -32,6 +32,7 @@
 		"@supabase/supabase-js": "^2.42.0",
 		"add": "^2.0.6",
 		"bits-ui": "^0.21.2",
+		"@sveltejs/adapter-vercel": "^5.2.0",
 		"clsx": "^2.1.0",
 		"lucide-svelte": "^0.365.0",
 		"tailwind-merge": "^2.2.2",
